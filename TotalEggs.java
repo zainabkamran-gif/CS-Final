@@ -6,7 +6,7 @@ super(0.0);
 total=0;
 }
 public void count(Fowls fowl, RestInPeace rip) {
-total = fowl.totalEggsLaid - rip.deathCount;
+total = fowl.totalEggsLaid - rip.chicDeathCount - rip.duckDeathCount;
 }
 // displaying the updated total egg count
 public void display(PApplet p) {

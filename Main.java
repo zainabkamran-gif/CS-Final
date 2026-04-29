@@ -3,7 +3,6 @@ public class Main extends PApplet {
     Chickens[] chic = new Chickens[50];
     Ducks[] duck = new Ducks[50];
     Fowls fowl;
-    Days day;
     TotalEggs t;
     RestInPeace rip;
 
@@ -13,7 +12,6 @@ public class Main extends PApplet {
     public void setup() {
         // actually creating objects and populating arrays
     fowl = new Fowls();
-    day = new Days();
     t = new TotalEggs();
     rip = new RestInPeace();
     for (int i=0; i<chic.length; i++) {

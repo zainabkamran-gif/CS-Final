@@ -11,7 +11,7 @@ if (p.keyPressed && p.key=='x') {
 deathCount++;
 }
 }
-           // displaying the death count
+// displaying the death count
 public void display(PApplet p) {
 p.fill(255,0,0);
 p.textSize(30);

@@ -2,8 +2,8 @@ public class RestInPeace extends Objects {
 int deathCount;
 // constructor
 public RestInPeace() {
-            super(0,0);
-            deathCount=0;
+super(0,0);
+deathCount=0;
 }
 // if x is pressed, a fowl dies
 public boolean death(PApplet p) {

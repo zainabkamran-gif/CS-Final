@@ -1,8 +1,8 @@
-public class Chicken extends Objects { 
+public class Chickens extends Objects { 
 int chicNo;
 
 //constructor
-public Chicken(float x, float y, float size) {
+public Chickens() {
 super(random(400),random(400)); // calling the Object constructor and putting chickens on random positions
 chicNo = 0;
 }

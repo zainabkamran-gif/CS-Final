@@ -2,7 +2,7 @@ public class Ducks extends Objects {
 int duckNo;
 
 // constructor
-public Ducks(float x, float y, float size) {
+public Ducks() {
 super(random(400), random(400)); // calling the Object constructor and putting ducks on random positions
 duckNo = 0;
 }

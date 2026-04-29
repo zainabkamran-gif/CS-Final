@@ -7,7 +7,7 @@ super(0,0);
 d = 1;
 }
 
-public void increment(PApplet p) { // look into this
+public void increment(PApplet p) {
 if (p.keyPressed && key == 'z' && p.frameCount%2==0) { // increases day by 1 if key pressed is z and if the user presses the key NOT MORE THAN TWICE
 d++;
 }

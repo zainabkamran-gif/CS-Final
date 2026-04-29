@@ -33,7 +33,7 @@ public void draw() {
      }
        for (int i=0; i<duck.length; i++) {
         duck[i].display(this); 
-        fowl.layChicEggAttempt(duck[i]);
+        fowl.layDuckEggAttempt(duck[i]);
 }
 
 fowl.updateDay(this);

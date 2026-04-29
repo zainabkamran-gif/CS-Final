@@ -38,7 +38,8 @@ public void draw() {
 
 fowl.updateDay(this);
 
-rip.death(this);
+rip.cdeath(this);
+rip.ddeath(this);
 rip.display(this);
 
 t.count(fowl, rip);

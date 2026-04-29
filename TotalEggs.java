@@ -1,7 +1,7 @@
 public class TotalEggs extends Objects {
 int total;
 // constructor
-public TotalEggs(){
+public TotalEggs() {
 super(0.0);
 total=0;
 }

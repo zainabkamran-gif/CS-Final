@@ -13,9 +13,9 @@ deathCount++;
 }
            // displaying the death count
 public void display(PApplet p) {
-           p.fill(255,0,0);
-           p.textSize(30);
+p.fill(255,0,0);
+p.textSize(30);
 p.textAlign(PApplet.LEFT);
-text("Death Count: " + deathCount,10,50);
+p.text("Death Count: " + deathCount,10,50);
 }
 }

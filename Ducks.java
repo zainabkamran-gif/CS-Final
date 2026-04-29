@@ -9,7 +9,7 @@ duckNo = 0;
 
 // drawing the duck objects
 public void display(PApplet p) {
-p.fill(175,100,220);
+p.fill(0,0,255);
 p.ellipse(x, y, size, size);
 }
 }

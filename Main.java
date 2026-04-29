@@ -23,7 +23,7 @@ public class Main extends PApplet {
     }
 
 public void draw() {
-    // displaying chickens, ducks, day count, and death count
+    // displaying chickens, ducks, day count, chicken and duck death counts, and total egg count
     background(255);
      for (int i=0; i<chic.length; i++) {
         chic[i].display(this);
@@ -43,6 +43,7 @@ rip.display(this);
 t.count(fowl, rip);
 t.display(this);
 }
+    // first thing Java runs, without this our program will NOT run
        public static void main(String[] args) {
         String[] processingArgs = {"MySketch"};
         Main mySketch = new Main();

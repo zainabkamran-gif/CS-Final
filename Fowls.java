@@ -17,9 +17,9 @@ day.display(p);
 // method to attempt to lay a chicken egg
 public boolean layChicEggAttempt(Chickens c) {
 float r = random(0,1);
-If (r>.8) {
+if (r>.8) {
 totalEggsLaid++;
-c.ChicNo++;
+c.chicNo++;
 return true;
 } else {
 return false;
@@ -28,9 +28,9 @@ return false;
 // method to attempt to lay a duck egg
 public boolean layDuckEggAttempt(Ducks d) {
 float r = random(0,1);
-If (r>.8) {
+if (r>.8) {
 totalEggsLaid++;
-d.DuckNo++;
+d.duckNo++;
 return true;
 } else {
 return false;

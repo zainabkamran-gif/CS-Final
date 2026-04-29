@@ -9,7 +9,7 @@ chicNo = 0;
 
 // drawing the chicken objects
 public void display(PApplet p) {
-p.fill(255,100,0);
+p.fill(255, 165, 0);
 p.ellipse(x, y, size, size);
 }
 }

@@ -1,5 +1,5 @@
 public class Main extends PApplet {
-    // declaring arrays and variables
+    // declaring arrays and object variables
     Chickens[] chic = new Chickens[50];
     Ducks[] duck = new Ducks[50];
     Fowls fowl;
